@@ -39,6 +39,7 @@ tzdata              2024.1
 uritemplate         4.1.1
 
 ****Run command for project**
+
 /src/moviereviewapi/
 
 python manage.py runserver
