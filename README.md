@@ -4,6 +4,7 @@ The Movie Review and Recommendation API is designed to provide a seamless interf
 **set up and run the project locally**
 **Require Dependecy**
 pip install django
+
 asgiref             3.8.1
 backports.zoneinfo  0.2.1
 Django              4.2.13
