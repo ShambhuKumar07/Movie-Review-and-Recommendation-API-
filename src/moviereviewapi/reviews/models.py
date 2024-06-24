@@ -10,7 +10,8 @@ class Movie(models.Model):
     description = models.TextField()
     release_date = models.DateField()
     genre = models.CharField(max_length=100)
-    poster_url = models.URLField()
+    # poster_url = models.URLField()
+    poster_url = models.URLField(max_length=200, null=True, blank=True)
 
     def __str__(self):
         return self.title
