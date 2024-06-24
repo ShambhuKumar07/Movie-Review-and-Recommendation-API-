@@ -16,7 +16,7 @@ class Movie(models.Model):
         return self.title
     
 
-######### table name Movie
+######### table name Review
 
 class Review(models.Model):
     movie = models.ForeignKey(Movie, related_name='reviews', on_delete=models.CASCADE)
